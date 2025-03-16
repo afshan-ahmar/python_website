@@ -27,7 +27,7 @@ st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "About", "Contact"])
 
 # Load an image for UI enhancement
-image = Image.open("example.jpg")
+image = Image.open("image.png")
 
 # Home Page
 if page == "Home":
